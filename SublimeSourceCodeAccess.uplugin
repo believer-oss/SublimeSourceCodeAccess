@@ -1,0 +1,29 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "Sublime Text Editor Integration",
+	"Description" : "Allows access to source code in Sublime Text.",
+	"Category" : "Programming",
+	"CreatedBy" : "Believer Company LLC",
+	"CreatedByURL" : "",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"EnabledByDefault" : true,
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "SublimeSourceCodeAccess",
+			"Type" : "UncookedOnly",
+			"LoadingPhase" : "Default",
+			"PlatformAllowList" :
+			[
+				"Win64"
+			]
+		}
+	]
+}
